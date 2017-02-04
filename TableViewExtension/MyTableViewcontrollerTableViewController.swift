@@ -35,8 +35,12 @@ class MyTableViewcontroller: UITableViewController {
     }
 
     func buttonTapped(_ button: UIButton) {
-      let indexPath = self.tableView.indexPathForView(button)
-      print("Button tapped at indexPath \(indexPath)")
+      if let indexPath = self.tableView.indexPathForView(button) {
+        print("Button tapped at indexPath \(indexPath)")
+      }
+      else {
+        print("Button indexPath not found")
+      }
     }
   
 }
