@@ -12,6 +12,9 @@
 		AEBC6FB01E0DD143008BF2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FAE1E0DD143008BF2A0 /* Main.storyboard */; };
 		AEBC6FB21E0DD143008BF2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FB11E0DD143008BF2A0 /* Assets.xcassets */; };
 		AEBC6FB51E0DD143008BF2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FB31E0DD143008BF2A0 /* LaunchScreen.storyboard */; };
+		AEBC6FBD1E0DD217008BF2A0 /* MyTableViewcontrollerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FBC1E0DD217008BF2A0 /* MyTableViewcontrollerTableViewController.swift */; };
+		AEBC6FBF1E0DD2C7008BF2A0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FBE1E0DD2C7008BF2A0 /* MyTableViewCell.swift */; };
+		AEBC6FC11E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FC01E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AEBC6FB11E0DD143008BF2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBC6FB41E0DD143008BF2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBC6FB61E0DD143008BF2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBC6FBC1E0DD217008BF2A0 /* MyTableViewcontrollerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewcontrollerTableViewController.swift; sourceTree = "<group>"; };
+		AEBC6FBE1E0DD2C7008BF2A0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		AEBC6FC01E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+indexPathForView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				AEBC6FAA1E0DD143008BF2A0 /* AppDelegate.swift */,
 				AEBC6FAC1E0DD143008BF2A0 /* ViewController.swift */,
+				AEBC6FBC1E0DD217008BF2A0 /* MyTableViewcontrollerTableViewController.swift */,
+				AEBC6FBE1E0DD2C7008BF2A0 /* MyTableViewCell.swift */,
 				AEBC6FAE1E0DD143008BF2A0 /* Main.storyboard */,
 				AEBC6FB11E0DD143008BF2A0 /* Assets.xcassets */,
 				AEBC6FB31E0DD143008BF2A0 /* LaunchScreen.storyboard */,
 				AEBC6FB61E0DD143008BF2A0 /* Info.plist */,
+				AEBC6FC01E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift */,
 			);
 			path = TableViewExtension;
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBC6FC11E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift in Sources */,
+				AEBC6FBD1E0DD217008BF2A0 /* MyTableViewcontrollerTableViewController.swift in Sources */,
+				AEBC6FBF1E0DD2C7008BF2A0 /* MyTableViewCell.swift in Sources */,
 				AEBC6FAD1E0DD143008BF2A0 /* ViewController.swift in Sources */,
 				AEBC6FAB1E0DD143008BF2A0 /* AppDelegate.swift in Sources */,
 			);
