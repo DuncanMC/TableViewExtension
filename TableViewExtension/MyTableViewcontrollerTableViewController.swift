@@ -34,7 +34,7 @@ class MyTableViewcontroller: UITableViewController {
         return cell
     }
 
-    func buttonTapped(_ button: UIButton) {
+    @IBAction func buttonTapped(_ button: UIButton) {
       if let indexPath = self.tableView.indexPathForView(button) {
         print("Button tapped at indexPath \(indexPath)")
       }
