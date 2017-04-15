@@ -11,11 +11,8 @@ public extension UITableView {
   
   /**
   This method returns the indexPath of the cell that contains the specified view
-   
    - Parameter view: The view to find.
-   
    - Returns: The indexPath of the cell containing the view, or nil if it can't be found
-   
   */
   
   func indexPathForView(_ view: UIView) -> IndexPath? {
