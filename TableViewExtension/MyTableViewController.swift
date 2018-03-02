@@ -27,6 +27,8 @@ class MyTableViewcontroller: UITableViewController {
         
         // Configure the cell...
         cell.textLabel?.text = "Cell \(indexPath.row)"
+        cell.textLabel?.isOpaque = false
+        cell.textLabel?.backgroundColor = .clear
         if let cell = cell as? MyTableViewCell {
             cell.button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
         }
