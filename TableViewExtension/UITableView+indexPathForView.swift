@@ -16,9 +16,9 @@ public extension UITableView {
   */
   
   func indexPathForView(_ view: UIView) -> IndexPath? {
-    let origin = view.bounds.origin
-    let viewOrigin = self.convert(origin, from: view)
-    let indexPath = self.indexPathForRow(at: viewOrigin)
+    let center = view.center
+    let viewCenter = self.convert(center, from: view.superview)
+    let indexPath = self.indexPathForRow(at: viewCenter)
     return indexPath
   }
 }
