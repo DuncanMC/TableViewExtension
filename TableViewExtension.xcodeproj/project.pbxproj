@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE77164623B232FD0047E1FD /* UICollectionView+indexPathForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77164523B232FD0047E1FD /* UICollectionView+indexPathForView.swift */; };
 		AEBC6FAB1E0DD143008BF2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FAA1E0DD143008BF2A0 /* AppDelegate.swift */; };
 		AEBC6FAD1E0DD143008BF2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBC6FAC1E0DD143008BF2A0 /* ViewController.swift */; };
 		AEBC6FB01E0DD143008BF2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBC6FAE1E0DD143008BF2A0 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE77164523B232FD0047E1FD /* UICollectionView+indexPathForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+indexPathForView.swift"; sourceTree = "<group>"; };
 		AEBC6FA71E0DD143008BF2A0 /* TableViewExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBC6FAA1E0DD143008BF2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBC6FAC1E0DD143008BF2A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				AEBC6FB31E0DD143008BF2A0 /* LaunchScreen.storyboard */,
 				AEBC6FB61E0DD143008BF2A0 /* Info.plist */,
 				AEBC6FC01E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift */,
+				AE77164523B232FD0047E1FD /* UICollectionView+indexPathForView.swift */,
 			);
 			path = TableViewExtension;
 			sourceTree = "<group>";
@@ -115,6 +118,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -149,6 +153,7 @@
 				AEBC6FC11E0DD4CD008BF2A0 /* UITableView+indexPathForView.swift in Sources */,
 				AEBC6FBD1E0DD217008BF2A0 /* MyTableViewController.swift in Sources */,
 				AEBC6FBF1E0DD2C7008BF2A0 /* MyTableViewCell.swift in Sources */,
+				AE77164623B232FD0047E1FD /* UICollectionView+indexPathForView.swift in Sources */,
 				AEBC6FAD1E0DD143008BF2A0 /* ViewController.swift in Sources */,
 				AEBC6FAB1E0DD143008BF2A0 /* AppDelegate.swift in Sources */,
 			);

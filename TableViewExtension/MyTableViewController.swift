@@ -44,4 +44,16 @@ class MyTableViewcontroller: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        if let selectedRow = tableView.indexPathForSelectedRow {
+            print("Deselecting row \(selectedRow.row). Stop playing sound")
+            tableView.deselectRow(at: indexPath, animated: false)
+            if selectedRow == indexPath {
+                return nil
+            }
+        }
+        print("Selecting row \(indexPath.row). Start playing sound")
+        return indexPath
+    }
+    
 }
